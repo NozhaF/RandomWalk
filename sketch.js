@@ -11,7 +11,7 @@ function setup() {
 	for (var i = 0 ; i < walkers.length; i++) {
 		walkers[i] = new Walker();
 		}
-
+frameRate(10);
 
 }
 
@@ -45,9 +45,11 @@ function draw() {
 	ellipse(x, y, 10, 10);
 	textSize(36);
 	text("100 walkers randomly walking ... ", 100, 100);
+	text("Step", 120, 250);
 
 for (var i = 0; i < walkers.length; i++) {
 		walkers[i].move();
+		text(frameCount, 200, 250);
 		
 
 	}
