@@ -1,2 +1,2 @@
 # RandomWalk
-A visualization of 1-dimensional random walk
+A visualization of a 1-dimensional random walk
